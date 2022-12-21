@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">zsfinal</string>
+    <string name="med">Predict Medicine</string>
+    <string name="button">Expand</string>
+    <string name="docreview">Doctor reviews</string>
+    <string name="disease">Predict disease</string>
+    <string name="appointment">Appointment</string>
+    <string name="cam">Capture</string>
+    <string name="predictmed">Predict</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="newuser">New User?</string>
+    <string name="Reg">Register here</string>
+    <string name="loginpg">Login page</string>
+    <string name="regpg">Registration page</string>
+    <string name="existinguser">Existing user?</string>
+    <string name="regbtn">Register</string>
+    <string name="name">Name</string>
+    <string name="area">Select area</string>
+    <string name="searchdoc">Select doctor</string>
+    <string name="date">Select date</string>
+    <string name="time">Time slot</string>
+    <string name="bappointment">Book Appointment</string>
+
+</resources>
