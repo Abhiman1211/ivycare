@@ -22,15 +22,5 @@
     <string name="date">Select date</string>
     <string name="time">Time slot</string>
     <string name="bappointment">Book Appointment</string>
-    <string name="predict">Predict disease</string>
-    <string name="symptom1">Symptom 1</string>
-    <string name="symptom2">Symptom 2</string>
-    <string name="symptom3">Symptom 3</string>
-    <string name="symptom4">Symptom 4</string>
-    <string name="docreg">Doctor Registration page</string>
-    <string name="doclogin">Doctor Login page</string>
-    <string name="docAccept">Accept</string>
-    <string name="male">Male</string>
-    <string name="Disease">Disease</string>
 
 </resources>

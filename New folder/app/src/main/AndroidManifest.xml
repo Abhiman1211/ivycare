@@ -20,21 +20,6 @@
         android:theme="@style/Theme.Zsfinal"
         tools:targetApi="31">
         <activity
-            android:name=".patientinfo"
-            android:exported="false" />
-        <activity
-            android:name=".schedule"
-            android:exported="false" />
-        <activity
-            android:name=".doclogin"
-            android:exported="false" />
-        <activity
-            android:name=".docreg"
-            android:exported="false" />
-        <activity
-            android:name=".symptoms"
-            android:exported="false" />
-        <activity
             android:name=".predictdisease"
             android:exported="false" />
         <activity
