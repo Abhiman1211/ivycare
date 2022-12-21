@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".symptoms"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/arrow" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/search" />
+
+
+    </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="125dp">
+
+
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_gravity="center"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="55dp"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                android:src="@drawable/body_scan_removebg_preview"
+                android:paddingTop="-20dp"/>
+
+            <EditText
+                android:id="@+id/symptom1"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/symptom1"
+                android:inputType="textPersonName"
+                android:paddingLeft="55dp"
+                android:paddingTop="20dp"
+                android:textSize="25dp" />
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_gravity="center"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="55dp"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                android:src="@drawable/body_scan_removebg_preview"
+                android:paddingTop="-20dp"/>
+
+            <EditText
+                android:id="@+id/symptom2"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/symptom2"
+                android:inputType="textPersonName"
+                android:paddingLeft="55dp"
+                android:paddingTop="20dp"
+                android:textSize="25dp" />
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_gravity="center"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="55dp"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                android:src="@drawable/body_scan_removebg_preview"
+                android:paddingTop="-20dp"/>
+
+            <EditText
+                android:id="@+id/symptom3"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/symptom3"
+                android:inputType="textPersonName"
+                android:paddingLeft="55dp"
+                android:paddingTop="20dp"
+                android:textSize="25dp" />
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_gravity="center"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="55dp"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                android:src="@drawable/body_scan_removebg_preview"
+                android:paddingTop="-20dp"/>
+
+            <EditText
+                android:id="@+id/symptom4"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/symptom4"
+                android:inputType="textPersonName"
+                android:paddingLeft="55dp"
+                android:paddingTop="20dp"
+                android:textSize="25dp" />
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_gravity="center"
+            android:layout_height="?actionBarSize">
+
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundbutton"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="@string/predict"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
