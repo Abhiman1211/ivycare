@@ -67,7 +67,8 @@
 
 # Contributors </br>
 ------------------------------------------
-1. 
+* <a href="https://github.com/Abhiman1211">Abhiman Gautam </a><br>
+* <a href="https://github.com/Riya2919">Riya Gandhi </a><br></br>
 
 
 
