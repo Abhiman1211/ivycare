@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".patientinfo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                android:src="@drawable/arrow" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                android:src="@drawable/search" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alex Kapoor       Age:25"
+            android:textSize="30dp"
+            android:textAllCaps="true"
+            android:padding="10dp"/>
+
+
+        <ImageView
+            android:paddingTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            app:srcCompat="@drawable/whatsapp_image_2022_12_22_at_3_22_16_pm" />
+
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_gravity="center"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="55dp"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                android:src="@drawable/male_removebg_preview"
+                android:paddingTop="-20dp"/>
+
+            <TextView
+                android:id="@+id/symptom1"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="@string/male"
+                android:inputType="textPersonName"
+                android:paddingLeft="55dp"
+                android:paddingTop="10dp"
+                android:textSize="25dp" />
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_gravity="center"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="55dp"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                android:src="@drawable/body_scan_removebg_preview"
+                android:paddingTop="-20dp"/>
+
+            <TextView
+                android:id="@+id/symptom2"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="@string/Disease"
+                android:inputType="textPersonName"
+                android:paddingLeft="55dp"
+                android:paddingTop="10dp"
+                android:textSize="25dp" />
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_gravity="center"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="55dp"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                android:src="@drawable/clock_removebg_preview"
+                android:paddingTop="-20dp"/>
+
+            <TextView
+                android:id="@+id/symptom3"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="8:30 PM"
+                android:inputType="textPersonName"
+                android:paddingLeft="55dp"
+                android:paddingTop="10dp"
+                android:textSize="25dp" />
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_gravity="center"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="55dp"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                android:src="@drawable/calendar__1__removebg_preview"
+                android:paddingTop="-20dp"/>
+
+            <TextView
+                android:id="@+id/symptom4"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text=" 22 / 12 / 2022"
+                android:inputType="textPersonName"
+                android:paddingLeft="55dp"
+                android:paddingTop="10dp"
+                android:textSize="25dp" />
+
+
+
+
+        </RelativeLayout>
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/roundbutton"
+            android:text="@string/docAccept"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+    </LinearLayout>
+
+</ScrollView>

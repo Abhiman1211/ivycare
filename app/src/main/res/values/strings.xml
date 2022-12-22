@@ -29,5 +29,8 @@
     <string name="symptom4">Symptom 4</string>
     <string name="docreg">Doctor Registration page</string>
     <string name="doclogin">Doctor Login page</string>
+    <string name="docAccept">Accept</string>
+    <string name="male">Male</string>
+    <string name="Disease">Disease</string>
 
 </resources>
