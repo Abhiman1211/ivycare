@@ -49,6 +49,21 @@
 ![doctors registraion](https://user-images.githubusercontent.com/73026322/209121810-6371c3a3-b973-466b-985b-b352bb6acd9e.jpg) </br>
 
 -------------------------------------------
+* Doctors Login Page </br>
+-------------------------------------------
+![doctors login](https://user-images.githubusercontent.com/73026322/209122182-ab587031-1d64-499d-ad48-f8e481a92b77.jpg) </br>
+
+-------------------------------------------
+* Patient List </br>
+-------------------------------------------
+![patient list ](https://user-images.githubusercontent.com/73026322/209122277-f2421ae5-207d-4329-8089-28e144beba98.jpg) </br>
+
+-------------------------------------------
+* Patient Information for Doctor </br>
+-------------------------------------------
+![patient info](https://user-images.githubusercontent.com/73026322/209122397-826fb0e5-f45b-4f19-86c9-f92b4b16a1ed.jpg) </br>
+
+
 
 
 
